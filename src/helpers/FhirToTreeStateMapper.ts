@@ -254,6 +254,7 @@ export function mapToTreeState(resource: Bundle | Questionnaire): TreeState {
     } else {
         mainQuestionnaire = resource as Questionnaire;
     }
+    document.title = mainQuestionnaire.title || document.title;
 
     const qMetadata: IQuestionnaireMetadata = extractMetadata(mainQuestionnaire);
     const qContained = (mainQuestionnaire.contained as Array<ValueSet>) || []; // we expect contained to only contain ValueSets

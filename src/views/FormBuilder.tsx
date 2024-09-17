@@ -2,10 +2,11 @@ import { useCallback, useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TreeContext } from '../store/treeStore/treeStore';
 import AnchorMenu from '../components/AnchorMenu/AnchorMenu';
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../balossi/components/Navbar/Navbar';
 import QuestionDrawer from '../components/QuestionDrawer/QuestionDrawer';
 import Modal from '../components/Modal/Modal'
 import './FormBuilder.css';
+import '../balossi/override.css';
 import { ValidationErrors } from '../helpers/orphanValidation';
 import TranslationModal from '../components/Languages/Translation/TranslationModal';
 import MetadataEditor from '../components/Metadata/MetadataEditor';

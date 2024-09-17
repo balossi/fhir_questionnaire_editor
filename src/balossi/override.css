@@ -1,0 +1,12 @@
+body > * {
+    font-family: sans-serif;
+}
+
+.App {
+    height: 100%;
+}
+
+.questionnaire-overview {
+    margin-left: inherit;
+    max-width: none;
+}

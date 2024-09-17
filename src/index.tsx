@@ -1,4 +1,5 @@
 import './index.css';
+import './balossi/override.css';
 
 import * as serviceWorker from './serviceWorker';
 

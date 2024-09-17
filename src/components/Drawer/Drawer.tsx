@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import IconBtn from '../IconBtn/IconBtn';
 
 import './Drawer.css';
+import '../../balossi/override.css';
 import useOutsideClick from '../../hooks/useOutsideClick';
 
 type DrawerProps = {
